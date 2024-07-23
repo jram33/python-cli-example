@@ -4,6 +4,7 @@ import json
 
 
 # create a function that runs suprocess and returns the output
+# TEST
 def run_command(command):
     cmd = shlex.split(command)
     output = subprocess.check_output(cmd)
